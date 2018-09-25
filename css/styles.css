@@ -1,0 +1,265 @@
+body{
+    margin: 0 auto;
+    font-family: 'Gamja Flower', cursive;
+}
+/* Nav Bar and Header */
+header{
+    height: 75px;
+}
+
+.nav-bar{
+    background: rgba(0,0,0,0.6);
+    color: #656565;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
+    z-index:1;
+    
+}
+
+.list-item{
+    display: inline;
+    padding-right: 25px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    width: 10px;
+    height: 10px;
+}
+
+.list-item a:hover{
+    color: black;
+    background-color: #fff;
+}
+
+.nav-list {
+    margin: 0 auto;
+    margin-top: 25px;
+    float: right;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+/*Name text on First Image */
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.border{
+    background-color: #656565;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+.image1{
+    background-image: url('/images/parallax1.jpg');
+}
+.parallax {
+ 
+    /* Full height */
+    height: 700px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-box{
+    color: #656565;
+    background-color: #fff;
+    text-align: left;
+    padding: 5px 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.title{
+    letter-spacing: 10px;
+    /*padding: 5px 80px;*/
+    font-family: 'Lato', sans-serif;
+}
+.basic-text-objective{
+    font-family: 'Lato', sans-serif;
+     letter-spacing: 5px;
+     text-align: center;
+}
+.basic-text-skills{
+    font-family: 'Lato', sans-serif;
+     letter-spacing: 5px;
+     text-align: center;
+}
+
+.image2{
+    background-image: url('/images/parallax2.jpg');
+    /*position: center;*/
+    height: 1000px;
+}
+
+
+
+.skills-container {
+    width: 100%;
+    height: 620px;
+    top: 15%;
+    position: relative;
+    margin-left: 3px;
+}
+
+.text-box-black{
+    color: #fff;
+    background-color: rgba(0,0,0,0.6);
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+
+.title-white{
+    letter-spacing: 10px;
+    padding: 5px 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+.skills{
+    width: 33%;
+    display:inline-block;
+    height:300px;
+}
+
+.basic-text-subtitle{
+    font-family: 'Lato', sans-serif;
+     letter-spacing: 5px;
+     text-align: left;
+     margin-left: 20px;
+}
+
+.basic-text-bullets{
+    font-family: 'Lato', sans-serif;
+     letter-spacing: 5px;
+     text-align: left;
+     margin-left: 50px;
+}
+
+.image3{
+    background-image: url('/images/parallax3.jpg');
+    /*position: center;*/
+    height: 1000px;
+}
+
+.experience{
+    width: 100%;
+    height: 700px;
+    top: 50%;
+    margin-left: 3px;
+}
+
+.text-box-clear{
+    text-align: left;
+    padding: 5px 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.image4{
+    background-image: url('/images/parallax4.jpg');
+    /*position: center;*/
+    height: 1000px;
+}
+
+
+.border2{
+    background-color: #656565;
+    border-radius: 50px;
+    color: #fff;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.text-box-black2{
+    color: #fff;
+    background-color: rgba(0,0,0,0.6);
+    text-align: left;
+    padding: 5px 80px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+
+.text-box-black3{
+    color: #fff;
+    background-color: rgba(0,0,0,0.6);
+    text-align: left;
+    padding: 5px 80px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 20%;
+}
+
+.basic-text-education{
+    font-family: 'Lato', sans-serif;
+     letter-spacing: 5px;
+     text-align: left;
+     margin-left: 50px;
+}
+
+.education-subtitle{
+    font-family: 'Lato', sans-serif;
+     letter-spacing: 5px;
+     text-align: left;
+     margin-left: 20px;
+}
+
+.title-white2{
+    letter-spacing: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+.video{
+    position: relative;
+    top:100%;
+    color: #fff;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+
+
+.footer{
+    background-color: #656565;
+    height: 75px;
+    width: 100%;
+}
+
+.footer-col {
+    height: 30px;
+    display: absolute;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.copyright{
+    font-weight: 700;
+}
+
+.social{
+    display: inline;
+}
